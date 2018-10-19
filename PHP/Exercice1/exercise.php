@@ -1,22 +1,22 @@
 <?php
 
-$booleanTrue;
-$booleanFalse;
+$booleanTrue = true;
+$booleanFalse = false;
 
-$int;
+$int = 3;
 
-$float;
+$float = 3.1423434;
 
-$integer;
+$integer = 17;
 
-$double;
+$double = 3.1434534;
 
-$string;
+$string = "Hello world!";
 
-$array;
+$array = ["Volvo", "BMW", "Toyota"];
 
-$doubleDimenssionArray;
+$doubleDimenssionArray = [[1, 2], [1, 2]];
 
-$associativeArray;
+$associativeArray = ["Diego" => "You can"];
 
-$null;
+$null = null;
