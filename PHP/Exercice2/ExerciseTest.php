@@ -7,10 +7,9 @@ class ExerciseTest extends TestCase
     {
         $password = 'azertyqwerty';
         $salt = 'salt';
-        
-        require 'correction.php';
-        
+
+        require 'exercise.php';
+
         $this->assertEquals('azertysaltqwerty', $saltedPassword);
     }
 }
-
